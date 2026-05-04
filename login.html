@@ -46,7 +46,6 @@
         const roll = document.getElementById('roll').value.trim();
         const pass = document.getElementById('password').value;
 
-        // Basic client-side validation: roll must be digits (min 4), password min 6
         if (!/^\d{4,}$/.test(roll)) { err.textContent = 'Enter a valid roll number (at least 4 digits).'; return; }
         if (pass.length < 6) { err.textContent = 'Password must be at least 6 characters.'; return; }
 
