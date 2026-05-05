@@ -145,7 +145,7 @@
          .survey-links-list { list-style: none; padding: 0; }
     .survey-links-list li { margin: 8px 0; }
     .survey-links-list a { color: #667eea; text-decoration: none; font-weight: 600; padding: 8px 12px; display:inline-block; border-radius:4px; }
-    .survey-links-list a:hover { background:#f0f4ff; color:#764ba2; transform:translateX(6px); }
+    .survey-links-list a:hover { background:#f0f4ff; color:#764ba2; transform:translateX(0px); }
     .survey-title { background:#f0f4ff; padding:12px; border-left:4px solid #667eea; margin-bottom:12px; margin-top:12px; border-radius:4px; font-weight:600; color:#333 }
     body {
  
