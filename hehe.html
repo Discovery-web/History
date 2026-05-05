@@ -80,11 +80,8 @@
             active: [ { name: 'Language Arts Evaluation', subjects: [ {name:'Reading', link:'survey_reading.html'}, {name:'Writing', link:'survey_writing.html'} ] } ],
             completed: [], pending: [], archived: []
         },
-        session3: { active: [], completed: [], pending: [], archived: [] },
-        session4: { active: [], completed: [], pending: [], archived: [] }
     };
 
-    // Fixed subject list to display (replaces survey-specific subjects)
     const fixedSubjects = [
         { name: 'ICLA', link: 'index2.html' },
         { name: 'WDL', link: 'index2.html' },
@@ -104,7 +101,6 @@
             return;
         }
 
-        // We'll show the fixed subject links for the selected survey categories
         const surveys = surveyData[session]?.[status] || [];
         if (surveys.length === 0) {
             container.innerHTML = '<div class="no-results">No surveys found for this selection</div>';
